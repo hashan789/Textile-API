@@ -1,0 +1,25 @@
+
+GET http://localhost:3000/clothes
+
+###
+
+POST http://localhost:3000/clothes
+Content-Type: application/json
+
+{
+    "name" : "skirt",
+    "no_of_items" : 25
+}
+
+###
+
+GET http://localhost:3000/clothes/62bad4d872ea236344da618c
+
+###
+
+PATCH http://localhost:3000/clothes/62bad4d872ea236344da618c
+Content-Type: application/json
+
+{
+    "name" : "v shaped t-shirt"
+}
