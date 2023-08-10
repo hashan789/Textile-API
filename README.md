@@ -7,6 +7,17 @@ this api is developed by express js and it is connected to a mongodb database.
 
 RESTful APIs are commonly used to expose data and functionality from web applications to other applications. They are also used to connect different web applications together.
 
+Here is the hierarchical hierarchy of resources:
+
+```
+/clothes
+/clothes/:id
+/clothes/:no_of_items
+/clothes/:date
+```
+
+In this case, resources are organized into a tree-like structure. The `/clothes` resource represents all clothes, and the `id` , `no_of_items`and `date`  are the attributes of  `clothes` resource .
+
 Here is the RESTful API call to get the full details of all clothes items from this api:
 
 ```
