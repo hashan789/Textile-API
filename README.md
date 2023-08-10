@@ -3,7 +3,7 @@ Restful api
 
 Textile-api is A RESTful API known as application programming interface (API) which is used to store and get the details of different clothes items in a textile shop.
 
-this api is developed by express js and it is connected to a mongodb database.
+This api is developed by express js and it is connected to a mongodb database.
 
 RESTful APIs are commonly used to expose data and functionality from web applications to other applications. They are also used to connect different web applications together.
 
