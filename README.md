@@ -8,7 +8,7 @@ RESTful APIs are commonly used to expose data and functionality from web applica
 Here is an example of a RESTful API call to get the current user from a web application:
 
 ```
-GET /users/me
+GET http://localhost:3000/id
 ```
 
 This call will return the current user's data in JSON format. The HTTP status code 200 will be returned if the request is successful. The HTTP status code 401 will be returned if the user is not authenticated.
