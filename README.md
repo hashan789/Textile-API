@@ -1,14 +1,16 @@
 # textile-api
 Restful api
 
-A RESTful API is an application programming interface (API) that conforms to the constraints of REST architectural style. REST stands for representational state transfer, and it is a set of architectural principles for designing distributed hypermedia systems.
+Textile-api is A RESTful API known as application programming interface (API) which is used to store and get the details of different clothes items in a textile shop.
+
+this api is developed by express js and it is connected to a mongodb database.
 
 RESTful APIs are commonly used to expose data and functionality from web applications to other applications. They are also used to connect different web applications together.
 
-Here is an example of a RESTful API call to get the current user from a web application:
+Here is the RESTful API call to get the full details of all clothes items from this api:
 
 ```
-GET http://localhost:3000/id
+GET http://localhost:3000/clothes
 ```
 
 This call will return the current user's data in JSON format. The HTTP status code 200 will be returned if the request is successful. The HTTP status code 401 will be returned if the user is not authenticated.
