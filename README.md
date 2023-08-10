@@ -13,7 +13,7 @@ Here is the RESTful API call to get the full details of all clothes items from t
 GET http://localhost:3000/clothes
 ```
 
-This call will return the current user's data in JSON format. The HTTP status code 200 will be returned if the request is successful. The HTTP status code 401 will be returned if the user is not authenticated.
+This call will return the current user's data in JSON format. The HTTP status code 200 will be returned if the request is successful. The HTTP status code 401 will be returned if there is no clothes in the shop.
 
 RESTful APIs are a popular choice for development because they are easy to understand and use. They are also scalable and reliable.
 
